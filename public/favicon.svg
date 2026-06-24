@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="14" fill="#0a0e15" stroke="#1e2a3a" stroke-width="1.5"/>
+<text x="32" y="34" font-family="monospace" font-size="22" font-weight="700" fill="#34e2a0" text-anchor="middle">PPG</text>
+<text x="32" y="48" font-family="monospace" font-size="9" fill="#6c7d93" text-anchor="middle">_soc</text>
+</svg>
