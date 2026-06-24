@@ -37,13 +37,13 @@ const SEQ = {
     reveal: {
       eyebrow: '// fin del simulacro',
       body: [
-        ['Tranquilo. Esto era un <b>simulacro</b>.', false],
-        ['Estás en mi web real. No ha pasado nada, nada se ha tocado.', true],
-        ['Pero acabas de escanear el QR de alguien que no conoces y abrir el enlace <b>sin verificarlo</b>.', false],
+        ['¿Y si esto hubiera sido un ataque real, solo por escanear un QR no confiable?</b>.', false],
+        ['Por suerte ha sido solo una falsa alarma', true],
+        ['¿Sabes lo que podría haber ocurrido?</b>.', false],
         ['Eso es <b>quishing</b> — phishing a través de un código QR. Si yo fuera un atacante, esto sería una web falsa y ya estarías entregando tus credenciales.', true],
       ],
       mitre: 'MITRE ATT&CK · T1566 — Phishing (Quishing)',
-      closing: 'Pero soy yo. Y lo he convertido en esto porque <b>defiendo pensando como el que ataca</b>.',
+      closing: 'Pero te has topado conmigo... «Aquel que pueda modificar sus tácticas en relación con su oponente y con ello lograr ganar puede ser llamado <b>capitán nacido en el cielo</b>».',
       sign: '— Pablo Pérez García · Aspirante a Analista SOC / Blue Team',
       cta: 'Ver quién soy ▸',
     },
