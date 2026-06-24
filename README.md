@@ -88,8 +88,9 @@ Casi todo el texto (ES/EN) está en **`src/data/content.js`**. Ahí cambias:
 Tras editar, `git add . && git commit -m "..." && git push` y Vercel redespliega.
 
 ---
-
+<!--
 ## Quitar el badge del evento (tras el Talent Day)
 
 En `src/data/content.js`, en `T.es` y `T.en`, borra o cambia la línea `event:`.
-O elimina el bloque del badge al final de `src/App.jsx`.
+O elimina el bloque del badge al final de `src/App.jsx`.Ç
+-->
