@@ -24,7 +24,7 @@ const COMMON = {
     threatLabel: 'NIVEL DE AMENAZA', containedLabel: 'CONTENIDO', neutralised: 'NEUTRALIZADO',
     sign: '— Pablo Pérez García · Aspirante a Analista SOC / Blue Team',
     cta: 'Ver quién soy ▸', eyebrow: '// fin del simulacro',
-    closing: 'Por suerte, soy yo. Y he convertido ese riesgo en esto porque <b>defiendo pensando como quien ataca</b>.',
+    closing: '«Solo hay dos tipos de compañías en el mundo: Aquellas que han sido atacadas y lo saben, y aquellas que han sido atacadas, y todavía no lo saben».',
   },
   en: {
     boot: [
@@ -41,7 +41,7 @@ const COMMON = {
     threatLabel: 'THREAT LEVEL', containedLabel: 'CONTAINED', neutralised: 'NEUTRALISED',
     sign: '— Pablo Pérez García · Aspiring SOC / Blue Team Analyst',
     cta: 'See who I am ▸', eyebrow: '// end of simulation',
-    closing: 'Luckily, it\u2019s me. And I turned that risk into this because <b>I defend by thinking like the attacker</b>.',
+    closing: '“There are only two kinds of companies in the world: those that have been attacked and know it, and those that have been attacked but don't know it yet.”',
   },
 };
 
@@ -102,8 +102,8 @@ const VARIANT = {
         { t: '[ !! ] Posible redirección a página fraudulenta', c: 'crit', d: 300 },
       ],
       body: [
-        ['Tranquilo. Esto era un <b>simulacro</b>.', false],
-        ['¿Y si esto hubiera sido un ataque real, solo por hacer clic en un enlace no confiable?', true],
+        ['¿Y si esto hubiera sido un ataque real, solo por escanear un QR no confiable?', false],
+        ['Por suerte. Esto era un <b>simulacro</b>.', true],
         ['Acabas de abrir el enlace de alguien que no conoces <b>sin verificar a dónde llevaba</b>.', false],
         ['Eso es <b>phishing</b>: el vector nº1 del mundo real. Si yo fuera un atacante, esto sería una web falsa y ya estarías entregando tus credenciales.', true],
       ],
@@ -122,8 +122,8 @@ const VARIANT = {
         { t: '[ !! ] Possible redirect to fraudulent page', c: 'crit', d: 300 },
       ],
       body: [
-        ['Relax. This was a <b>simulation</b>.', false],
         ['What if this had been a real attack — just for clicking an untrusted link?', true],
+        ['Relax. This was a <b>simulation</b>.', false],
         ['You just opened a stranger\u2019s link <b>without checking where it led</b>.', false],
         ['That is <b>phishing</b>: the world\u2019s #1 vector. If I were an attacker, this would be a fake site and you\u2019d already be handing over your credentials.', true],
       ],
