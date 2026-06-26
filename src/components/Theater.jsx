@@ -41,7 +41,7 @@ const COMMON = {
     threatLabel: 'THREAT LEVEL', containedLabel: 'CONTAINED', neutralised: 'NEUTRALISED',
     sign: '— Pablo Pérez García · Aspiring SOC / Blue Team Analyst',
     cta: 'See who I am ▸', eyebrow: '// end of simulation',
-    closing: '“There are only two kinds of companies in the world: those that have been attacked and know it, and those that have been attacked but don't know it yet.”',
+    closing: '“There are only two kinds of companies in the world: those that have been attacked and know it, and those that have been attacked but does not know it yet.” <span style="opacity:.6">— R. Mueller, FBI</span>'          ,
   },
 };
 
