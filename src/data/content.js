@@ -16,6 +16,7 @@ export const CONTACT = {
   // CVs alojados en el portfolio whoami (GitHub Pages)
   cvES: '/CV-PPG-CIBER-ES.pdf',
   cvEN: '/CV-PPG-CIBER-EN.pdf',
+  web: 'https://pabloperez-ciber.vercel.app/',
 };
 
 // Secuencia de arranque (boot). Los guiños anime viven aquí, con clase.
