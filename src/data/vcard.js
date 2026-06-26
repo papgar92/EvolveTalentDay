@@ -10,6 +10,7 @@ export function downloadVCard(roleLine) {
     `TITLE:${roleLine}`,
     `TEL;TYPE=CELL:${CONTACT.phone}`,
     `EMAIL;TYPE=INTERNET:${CONTACT.email}`,
+    `URL:${CONTACT.web}`,
     `URL:${CONTACT.github}`,
     `URL;TYPE=LinkedIn:${CONTACT.linkedin}`,
     `ADR;TYPE=HOME:;;;Madrid;;;España`,
